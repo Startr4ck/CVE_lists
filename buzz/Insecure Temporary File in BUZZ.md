@@ -32,8 +32,9 @@ with open(temp_path, 'w') as f:
 ![image](https://github.com/user-attachments/assets/6408ce56-e454-42b4-96a9-87a505de0645)
 
 Availability will get affected because of this vulnerability.
-
+According to the code: https://github.com/chidiwilliams/buzz/blob/b35267d422dd0cfe6ea31c77987a9fa24cd87ed3/buzz/model_loader.py#L508
+We can replace the evil model with the url model so that can be caused into code executed and  data leaks
 
 ## Refer 
-![CodeRefer](https://github.com/chidiwilliams/buzz/blob/b35267d422dd0cfe6ea31c77987a9fa24cd87ed3/buzz/model_loader.py#L531)
-![VulnRefer](https://huntr.com/bounties/a3867b4e-6701-4418-8c20-3c6e7084a44a)
+[CodeRefer](https://github.com/chidiwilliams/buzz/blob/b35267d422dd0cfe6ea31c77987a9fa24cd87ed3/buzz/model_loader.py#L531)
+[VulnRefer](https://huntr.com/bounties/a3867b4e-6701-4418-8c20-3c6e7084a44a)
