@@ -41,3 +41,5 @@ We can replace the evil model with the url model so that can be caused into code
 [VulnRefer](https://huntr.com/bounties/a3867b4e-6701-4418-8c20-3c6e7084a44a)  
 
 [BUZZ Origin issue](https://github.com/chidiwilliams/buzz/issues/949)
+
+[CVE-2024-10372](https://vuldb.com/?id.281764)
