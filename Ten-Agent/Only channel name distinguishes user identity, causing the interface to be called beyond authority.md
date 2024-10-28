@@ -1,17 +1,19 @@
 ### Summary
-A large number of interfaces only determine user identity through the parameter roomId without performing permission verification, resulting in a large number of unauthorized vulnerabilities
-All interfaces have not undergone permission verification, allowing attackers to close other people's connections and data based on the channel name
+A large number of interfaces only determine user identity through the parameter channel_name without performing permission verification, resulting in a large number of unauthorized vulnerabilities
+All interfaces have not undergone permission verification, ** Allowing attackers to close other people's connections and data based on the channel name **
 
-Here we take the scenario of changing the user's room configuration as an example
+
 
 We can regard https://agent.theten.ai/home as victim example  
 Use two accounts to replicate this operation
 ### DETAIL
-1.Victim login
+1. Victim login  
+
 ![image](https://github.com/user-attachments/assets/5dd3199b-16fe-4496-9482-d1827374bb24)
+Notice The channel name 
 
+2. Attackers send data packets (Assume attcker guess the right victim channel name[quiet easy]) 
 
-2.Attackers send data packets
 ![image](https://github.com/user-attachments/assets/f3190e3c-373c-4041-bcd1-47275d628ba7)
 POC 
 ```
@@ -35,7 +37,7 @@ Priority: u=1, i
 
 {"request_id":"6182c335-2eb9-4f64-8c87-510b953d52b312","channel_name":"agora_02nq0h"}
 ```
-The channel name can be traversed own By victim, and after this interface is sent, the corresponding room will pause the connection
+The channel name can be traversed own By victim, and after this request is sent, the corresponding room will pause the connection
 
 3. Users can reset the link properties in room by accessing the POST/app/agents/start interface
 Note that there is no association between user_id and channel
@@ -61,9 +63,12 @@ Priority: u=1, i
 
 {"request_id":"094a98a1-ece7-4906-95c5-bc3a877932a7","channel_name":"agora_02nq0h","user_uid":119866,"graph_name":"camera.va.openai.azure","language":"zh-CN","voice_type":"male"}
 ```
-4.We edited the graph_name as separate data, but it was not displayed on the user's frontend, but it did indeed change in the backend
 
-![image](https://github.com/user-attachments/assets/8e37fdd6-647e-4bd8-9faa-a94bbd2eb893)
+
+4. We edited the graph_name as separate data, but it was not displayed on the user's frontend, but it did indeed change in the backend
+
+![image](https://github.com/user-attachments/assets/8e37fdd6-647e-4bd8-9faa-a94bbd2eb893)  
+
 
 
 
