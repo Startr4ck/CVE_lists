@@ -1,6 +1,8 @@
 ### Summary
-A large number of interfaces only determine user identity through the parameter channel_name without performing permission verification, resulting in a large number of unauthorized vulnerabilities
-All interfaces have not undergone permission verification, ** Allowing attackers to close other people's connections and data based on the channel name **
+A large number of interfaces only determine user identity through the parameter channel_name without performing permission verification  
+**resulting in a large number of unauthorized vulnerabilities All interfaces have not undergone permission verification** 
+
+**Allowing attackers to close other people's connections and data based on the channel name**
 
 
 
