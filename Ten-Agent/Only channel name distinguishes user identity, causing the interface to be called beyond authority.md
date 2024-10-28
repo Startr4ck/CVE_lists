@@ -74,4 +74,7 @@ Priority: u=1, i
 
 
 #### impact
-Being able to modify someone else's room configuration beyond their authority and creating DOS vulnerabilities in their use of the room,Besides
+Being able to modify someone else's room configuration beyond their authority and creating DOS vulnerabilities in their use of the room,Besides  
+
+[Github Refer](https://github.com/TEN-framework/TEN-Agent)
+[Security Refer](https://github.com/TEN-framework/TEN-Agent/security/advisories/GHSA-phmj-cmwp-4hcf)
