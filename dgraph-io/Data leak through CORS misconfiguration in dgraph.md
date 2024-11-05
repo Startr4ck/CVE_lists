@@ -93,4 +93,5 @@ dgraph/x /x.go
 ### Refer 
 [Github Origin](https://github.com/dgraph-io)  
 
+I have been contacted  with dgraph Vendor contacted beforehand with the following Security advisory.
 [Github security](https://github.com/dgraph-io/dgraph/security/advisories/GHSA-jvx8-g626-pxr6)
