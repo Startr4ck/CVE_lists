@@ -35,6 +35,6 @@ ND®B`
 
 
 ### refer 
-[Github project](https://github.com/dullage/flatnotes)
+[Github project](https://github.com/dullage/flatnotes)  
 [origin issue](https://github.com/dullage/flatnotes/issues/259)
 
