@@ -61,7 +61,6 @@ ND®B`
 ### Attack Result 
 ![image](https://github.com/user-attachments/assets/c76d1da4-93d8-4a22-9a86-115d65c51a1e)
 
-![image](https://github.com/user-attachments/assets/4f958e80-bc72-41f0-bca2-5cb8c9f10a33)
 
 
 
