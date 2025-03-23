@@ -8,11 +8,12 @@ Regardless of the level of the vuln, Regardless of the difficulty level used or 
 
 ### Impact High
 [CVE-2024-53981](https://github.com/advisories/GHSA-59g5-xgcq-4qw3)  FastAPI  
-Tornado 
-Sanic
+Tornado  
+Sanic  
 ...
 ### RCE
-[CVE-2025-2622](https://vuldb.com/?id.300624) RCE nodeExpression deserialization
+[CVE-2025-2622](https://vuldb.com/?id.300624) RCE nodeExpression deserialization  
+  
 ### AI&LLM
 [CVE-2025-25185](https://github.com/binary-husky/gpt_academic/security/advisories/GHSA-gqp5-wm97-qxcv) gpt_academic 
 
