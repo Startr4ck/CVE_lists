@@ -7,7 +7,7 @@ Regardless of the level of the vuln, Regardless of the difficulty level used or 
 ## Details 
 
 ### Impact High
-[CVE-2024-53981](https://github.com/advisories/GHSA-59g5-xgcq-4qw3)  FastAPI Dos/ A kind of new attack surface 
+[CVE-2024-53981](https://github.com/advisories/GHSA-59g5-xgcq-4qw3)  FastAPI Dos/ A kind of new attack surface   
 Tornado  
 Sanic  
 ...
