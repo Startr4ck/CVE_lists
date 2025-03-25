@@ -12,7 +12,7 @@ Tornado
 Sanic  
 ...
 ### RCE
-[CVE-2025-2622](https://vuldb.com/?id.300624) RCE nodeExpression deserialization  
+[CVE-2025-2622](https://vuldb.com/?id.300624) snail-job 1.4.0 RCE check-node-expression getRuntime nodeExpression deserialization
   
 ### AI&LLM
 [CVE-2025-25185](https://github.com/binary-husky/gpt_academic/security/advisories/GHSA-gqp5-wm97-qxcv) gpt_academic 
