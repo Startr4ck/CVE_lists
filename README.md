@@ -16,7 +16,8 @@ Regardless of the level of the vuln, Regardless of the difficulty level used or 
 - Apache zepplin
 - Apache Hop
 - Tencent Supersonic   
-- Sina RillFlow  
+- Sina RillFlow
+...  
   
 ### AI&LLM
 - [CVE-2025-25185](https://github.com/binary-husky/gpt_academic/security/advisories/GHSA-gqp5-wm97-qxcv) gpt_academic   
