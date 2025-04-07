@@ -15,7 +15,7 @@ Regardless of the level of the vuln, Regardless of the difficulty level used or 
 - [CVE-2025-2622](https://vuldb.com/?id.300624) snail-job 1.4.0 RCE check-node-expression getRuntime nodeExpression deserialization  
 - Apache zepplin
 - Apache Hop
-- Tencent Supersonic   
+- [CVE-2025-3164](https://vuldb.com/?submit.542528)Tencent Supersonic   
 - Sina RillFlow
 ...  
   
