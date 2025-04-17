@@ -20,7 +20,10 @@ Regardless of the level of the vuln, Regardless of the difficulty level used or 
 ...  
   
 ### AI&LLM
-- [CVE-2025-25185](https://github.com/binary-husky/gpt_academic/security/advisories/GHSA-gqp5-wm97-qxcv) gpt_academic   
+- [CVE-2025-25185](https://github.com/binary-husky/gpt_academic/security/advisories/GHSA-gqp5-wm97-qxcv) gpt_academic
+- TenAgents
+- dgraph-io  
+...
 
 
 ### Another interesting  
