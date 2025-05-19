@@ -8,7 +8,7 @@ Regardless of the level of the vuln, Regardless of the difficulty level used or 
 
 ### FrameWork vulnerabilities *Impacet High
 - [CVE-2024-53981](https://github.com/advisories/GHSA-59g5-xgcq-4qw3)  FastAPI Dos/ Another kind of new attack surface   
-- [CVE-2025-47287](https://github.com/tornadoweb/tornado/security/advisories/GHSA-7cx3-6m66-7c5m#event-460784)Tornado Dos/ Another kind of new attack surface   
+- [CVE-2025-47287](https://github.com/tornadoweb/tornado/security/advisories/GHSA-7cx3-6m66-7c5m#event-460784) Tornado Dos/ Another kind of new attack surface   
 - Sanic  
 ...
 ### RCE
